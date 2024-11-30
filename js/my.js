@@ -3,7 +3,8 @@ const productList = [
     {
         id: 1,
         category: 'giày',
-        linkUrl: '/img/product-4.jpg',
+        linkUrl: 'img/product-4.jpg',
+        linkImg: ['img/product-4.jpg','img/product-1-1.jpg'],
         name: 'Giày thể thao nam',
         priceNew: '$100',
         priceOld: '$180',
@@ -13,7 +14,8 @@ const productList = [
     {
         id: 2,
         category: 'giày',
-        linkUrl: '/img/product-1-1.jpg',
+        linkUrl: 'img/product-4.jpg',
+        linkImg: ['img/product-4.jpg','img/product-4-1.jpg'],
         name: 'Giày chạy bộ nữ',
         priceNew: '$120',
         priceOld: '$200',
@@ -23,7 +25,8 @@ const productList = [
     {
         id: 3,
         category: 'giày',
-        linkUrl: '/img/product-4.jpg',
+        linkUrl: 'img/product-4.jpg',
+        linkImg: ['img/product-4.jpg','img/product-4-1.jpg'],
         name: 'Giày lười nam',
         priceNew: '$90',
         priceOld: '$150',
@@ -33,7 +36,8 @@ const productList = [
     {
         id: 4,
         category: 'giày',
-        linkUrl: '/img/product-4.jpg',
+        linkUrl: 'img/product-4.jpg',
+        linkImg: ['img/product-4.jpg','img/product-4-1.jpg'],
         name: 'Giày cao gót nữ',
         priceNew: '$110',
         priceOld: '$190',
@@ -43,7 +47,8 @@ const productList = [
     {
         id: 5,
         category: 'giày',
-        linkUrl: '/img/product-4.jpg',
+        linkUrl: 'img/product-4.jpg',
+        linkImg: ['img/product-4.jpg','img/product-1-1.jpg'],
         name: 'Giày sneakers trẻ em',
         priceNew: '$70',
         priceOld: '$100',
@@ -54,7 +59,8 @@ const productList = [
     {
         id: 6,
         category: 'áo',
-        linkUrl: '/img/product-2.jpg',
+        linkUrl: 'img/product-2.jpg',
+        linkImg: ['img/product-2.jpg','img/product-2.jpg'],
         name: 'Áo thun nam',
         priceNew: '$30',
         priceOld: '$50',
@@ -64,7 +70,8 @@ const productList = [
     {
         id: 7,
         category: 'áo',
-        linkUrl: '/img/product-7.jpg',
+        linkUrl: 'img/product-7.jpg',
+        linkImg: ['img/product-7.jpg','img/product-7.jpg'],
         name: 'Áo sơ mi nữ',
         priceNew: '$40',
         priceOld: '$70',
@@ -74,7 +81,8 @@ const productList = [
     {
         id: 8,
         category: 'áo',
-        linkUrl: '/img/product-ao-gio.jpg',
+        linkUrl: 'img/product-ao-gio.jpg',
+        linkImg: ['img/product-ao-gio.jpg','img/product-ao-hook.jpg'],
         name: 'Áo khoác gió',
         priceNew: '$60',
         priceOld: '$100',
@@ -84,7 +92,8 @@ const productList = [
     {
         id: 9,
         category: 'áo',
-        linkUrl: '/img/product-ao-hook.jpg',
+        linkUrl: 'img/product-ao-hook.jpg',
+        linkImg: ['img/product-ao-hook.jpg','img/product-ao-gio.jpg'],
         name: 'Áo hoodie',
         priceNew: '$50',
         priceOld: '$80',
@@ -94,7 +103,8 @@ const productList = [
     {
         id: 10,
         category: 'áo',
-        linkUrl: '/img/product-ao-vest.jpg',
+        linkUrl: 'img/product-ao-vest.jpg',
+        linkImg: ['img/product-ao-vest.jpg','img/product-ao-vest.jpg'],
         name: 'Áo vest',
         priceNew: '$100',
         priceOld: '$150',
@@ -105,7 +115,8 @@ const productList = [
     {
         id: 11,
         category: 'phụ kiện',
-        linkUrl: '/img/product-mat-kinh.jpg',
+        linkUrl: 'img/product-mat-kinh.jpg',
+        linkImg: ['img/product-mat-kinh.jpg','img/product-mat-kinh.jpg'],
         name: 'Kính mát thời trang',
         priceNew: '$25',
         priceOld: '$45',
@@ -115,7 +126,8 @@ const productList = [
     {
         id: 12,
         category: 'phụ kiện',
-        linkUrl: '/img/product-6.jpg',
+        linkUrl: 'img/product-6.jpg',
+        linkImg: ['img/product-6.jpg','img/product-6.jpg'],
         name: 'Đồng hồ đeo tay',
         priceNew: '$150',
         priceOld: '$250',
@@ -125,7 +137,8 @@ const productList = [
     {
         id: 13,
         category: 'phụ kiện',
-        linkUrl: '/img/product-tui-xach.jpg',
+        linkUrl: 'img/product-tui-xach.jpg',
+        linkImg: ['img/product-tui-xach.jpg','img/product-tui-xach.jpg'],
         name: 'Túi xách nữ',
         priceNew: '$80',
         priceOld: '$130',
@@ -135,7 +148,8 @@ const productList = [
     {
         id: 14,
         category: 'phụ kiện',
-        linkUrl: '/img/product-mu.jpg',
+        linkUrl: 'img/product-mu.jpg',
+        linkImg: ['img/product-mu.jpg','img/product-mu.jpg'],
         name: 'Mũ lưỡi trai',
         priceNew: '$15',
         priceOld: '$25',
@@ -145,7 +159,8 @@ const productList = [
     {
         id: 15,
         category: 'phụ kiện',
-        linkUrl: '/img/product-thac-lung.jpg',
+        linkUrl: 'img/product-thac-lung.jpg',
+        linkImg: ['img/product-thac-lung.jpg','img/product-thac-lung.jpg'],
         name: 'Thắt lưng da',
         priceNew: '$40',
         priceOld: '$70',
@@ -156,7 +171,8 @@ const productList = [
     {
         id: 16,
         category: 'chăm sóc da',
-        linkUrl: '/img/product-8.jpg',
+        linkUrl: 'img/product-8.jpg',
+        linkImg: ['img/product-8.jpg','img/product-8.jpg'],
         name: 'Kem dưỡng ẩm',
         priceNew: '$20',
         priceOld: '$35',
@@ -166,7 +182,8 @@ const productList = [
     {
         id: 17,
         category: 'chăm sóc da',
-        linkUrl: '/img/product-8.jpg',
+        linkUrl: 'img/product-8.jpg',
+        linkImg: ['img/product-8.jpg','img/product-8.jpg'],
         name: 'Sữa rửa mặt',
         priceNew: '$15',
         priceOld: '$25',
@@ -176,7 +193,8 @@ const productList = [
     {
         id: 18,
         category: 'chăm sóc da',
-        linkUrl: '/img/product-8.jpg',
+        linkUrl: 'img/product-8.jpg',
+        linkImg: ['img/product-8.jpg','img/product-8.jpg'],
         name: 'Mặt nạ dưỡng da',
         priceNew: '$10',
         priceOld: '$20',
@@ -186,7 +204,8 @@ const productList = [
     {
         id: 19,
         category: 'chăm sóc da',
-        linkUrl: '/img/product-8.jpg',
+        linkUrl: 'img/product-8.jpg',
+        linkImg: ['img/product-8.jpg','img/product-8.jpg'],
         name: 'Toner làm sạch',
         priceNew: '$18',
         priceOld: '$30',
@@ -196,7 +215,8 @@ const productList = [
     {
         id: 20,
         category: 'chăm sóc da',
-        linkUrl: '/img/product-8.jpg',
+        linkUrl: 'img/product-8.jpg',
+        linkImg: ['img/product-8.jpg','img/product-8.jpg'],
         name: 'Kem chống nắng',
         priceNew: '$25',
         priceOld: '$40',
